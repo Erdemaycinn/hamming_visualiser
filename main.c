@@ -324,9 +324,9 @@ void restoreHamming(){
     }
     errorindex = p1 | (p2 << 1) | (p3 << 2) | (p4 << 3) | (p5 << 4);
     
-    snprintf(restoremsg1, sizeof(restoremsg1), "binary Format:(p5,p4,p3,p2,p1) %d%d%d%d%d",p5,p4,p3,p2,p1);
-    snprintf(restoremsg2, sizeof(restoremsg2), "Error index: %d",errorindex);
-    snprintf(restoremsg3, sizeof(restoremsg3), "global parity: %d",gp);
+    snprintf(restoremsg1, sizeof(restoremsg1), "Binary Format (p5,p4,p3,p2,p1): %d%d%d%d%d",p5,p4,p3,p2,p1);
+    snprintf(restoremsg2, sizeof(restoremsg2), "Error Index: %d",errorindex);
+    snprintf(restoremsg3, sizeof(restoremsg3), "Global Parity: %d",gp);
 }
 
 
