@@ -4,8 +4,8 @@
 #include <sys/types.h>
 #define TB_IMPL
 #include "termbox2.h"
-#include <stdio.h>  // snprintf kullanmak için
-#include <string.h> // strlen kullanmak içina,
+#include <stdio.h>
+#include <string.h>
 
 const int WIDTH_LIMIT = 50;
 const int HEIGHT_LIMIT = 20;
